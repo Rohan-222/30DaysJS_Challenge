@@ -1,0 +1,71 @@
+// Activity 1: Arithmetic Operations
+
+// Task 1: Write a program to add two numbers and log the result to the console.
+let num1 = 10;
+let num2 = 5;
+let sum = num1 + num2;
+console.log("Task 1 - Sum:", sum); // Output: 15
+
+// Task 2: Write a program to subtract two numbers and log the result to the console.
+let difference = num1 - num2;
+console.log("Task 2 - Difference:", difference); // Output: 5
+
+// Task 3: Write a program to multiply two numbers and log the result to the console.
+let product = num1 * num2;
+console.log("Task 3 - Product:", product); // Output: 50
+
+// Task 4: Write a program to divide two numbers and log the result to the console.
+let quotient = num1 / num2;
+console.log("Task 4 - Quotient:", quotient); // Output: 2
+
+// Task 5: Write a program to find the remainder when one number is divided by another and log the result to the console.
+let remainder = num1 % num2;
+console.log("Task 5 - Remainder:", remainder); // Output: 0
+
+// Activity 2: Assignment Operators
+
+// Task 6: Use the += operator to add a number to a variable and log the result to the console.
+let assignNum = 20;
+assignNum += 10; // Equivalent to assignNum = assignNum + 10
+console.log("Task 6 - After += operator:", assignNum); // Output: 30
+
+// Task 7: Use the -= operator to subtract a number from a variable and log the result to the console.
+assignNum -= 5; // Equivalent to assignNum = assignNum - 5
+console.log("Task 7 - After -= operator:", assignNum); // Output: 25
+
+// Activity 3: Comparison Operators
+
+// Task 8: Write a program to compare two numbers using > and < and log the result to the console.
+let a = 7;
+let b = 10;
+console.log("Task 8 - a > b:", a > b); // Output: false
+console.log("Task 8 - a < b:", a < b); // Output: true
+
+// Task 9: Write a program to compare two numbers using >= and <= and log the result to the console.
+console.log("Task 9 - a >= b:", a >= b); // Output: false
+console.log("Task 9 - a <= b:", a <= b); // Output: true
+
+// Task 10: Write a program to compare two numbers using == and === and log the result to the console.
+let c = "7";
+console.log("Task 10 - a == c:", a == c); // Output: true (loose equality, only values are compared)
+console.log("Task 10 - a === c:", a === c); // Output: false (strict equality, both values and types are compared)
+
+// Activity 4: Logical Operators
+
+// Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
+let isAdult = true;
+let hasTicket = false;
+console.log("Task 11 - isAdult && hasTicket:", isAdult && hasTicket); // Output: false (both conditions must be true)
+
+// Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.
+console.log("Task 12 - isAdult || hasTicket:", isAdult || hasTicket); // Output: true (one or both conditions must be true)
+
+// Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
+console.log("Task 13 - !isAdult:", !isAdult); // Output: false (negates the true condition to false)
+
+// Activity 5: Ternary Operator
+
+// Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
+let number = -15;
+let result = number >= 0 ? "Positive" : "Negative";
+console.log("Task 14 - Number is:", result); // Output: Negative
